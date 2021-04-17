@@ -1,0 +1,61 @@
+.add {
+  width: 600px !important;
+}
+
+.add form {
+  margin: 5% 0;
+}
+
+.add .submit-btn {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dataTables_wrapper {
+  margin: 30px 0 80px 0;
+}
+
+.add-container {
+  text-align: center;
+}
+
+.err-text {
+  color: red;
+}
+
+.header-container {
+  padding: 0 5% !important;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  table.dataTable thead th,
+  table.dataTable tfoot th {
+    font-size: 12px !important;
+  }
+  .ud-btn {
+    width: 75px;
+    padding: 1px !important;
+  }
+  .add {
+    width: 100% !important;
+  }
+  .dataTables_filter,
+  .dataTables_length {
+    display: inline-block;
+    width: 49%;
+  }
+  label {
+    font-size: 10px;
+  }
+}
